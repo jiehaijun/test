@@ -1,0 +1,106 @@
+body {
+    /* height: 100%; */
+    width: 100%;
+    background: #353f42;
+}
+
+* {
+    /* height: 100%; */
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#title {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.gap {
+    background-color: white;
+    width: 980px;
+    height: 3px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+#content {
+    background: #68BC36;
+    /* height: 90%; */
+    width: 1000px;
+    height: 1000px;
+    margin-top: 100px;
+    position: absolute;
+    left: 50%;
+    margin-left: -500px;
+    text-align: center;
+}
+
+.time {
+    text-align: right;
+    margin-top: 10px;
+    width: 980px;
+    color: white;
+    font-size: 14px;
+}
+
+.title {
+    color: white;
+    margin-top: 10px;
+    font-weight: bold;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.content {
+    color: white;
+    height: 600px;
+    margin-top: 15px;
+    font-size: 16px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+.enter-btn {
+    width: 200px;
+    height: 40px;
+    color: #fff;
+    background: #01597B;
+    line-height: 40px;
+    text-align: center;
+    border: 0px;
+}
+
+.enter-btn:hover {
+    cursor: pointer;
+    background: #1db5c9;
+}
+
+#btn_block {
+    display: flex;
+    justify-content: space-around;
+}
+
+aside {
+    width: 160px;
+    height: 1500px;
+    float: left;
+    background: wheat;
+    text-align: center;
+}
+
+aside h2 {
+    height: 40px;
+    margin-top: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+aside a {
+    height: 40px;
+    margin-top: 20px;
+    color: white;
+}

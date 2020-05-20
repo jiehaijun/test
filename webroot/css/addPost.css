@@ -1,0 +1,143 @@
+body {
+    height: 100%;
+    background: #353f42;
+}
+
+* {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    margin: 0 auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    width: 600px;
+    height: 400px;
+    background: #00AEEE;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -300px;
+    margin-left: -300px;
+}
+
+.title {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.title span {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.title:hover {
+    cursor: default;
+}
+
+.input-content {
+    width: 100%;
+    height: 260px;
+}
+
+.input-content input {
+    width: 560px;
+    height: 40px;
+    border: 1px solid #dad9d6;
+    background: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.input-content textarea {
+    width: 560px;
+    height: 160px;
+    border: 1px solid #dad9d6;
+    background: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.enter-btn {
+    width: 150px;
+    height: 40px;
+    color: #fff;
+    background: #01597B;
+    line-height: 40px;
+    text-align: center;
+    border: 0px;
+}
+
+.foor {
+    width: 100%;
+    height: auto;
+    color: #9b9c98;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.enter-btn:hover {
+    cursor: pointer;
+    background: #1db5c9;
+}
+
+.foor div:hover {
+    cursor: pointer;
+    color: #484847;
+    font-weight: 600;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+#btn_block {
+    display: flex;
+    justify-content: space-around;
+}
+
+aside {
+    width: 180px;
+    height: 1500px;
+    float: left;
+    background: wheat;
+    text-align: center;
+}
+
+aside h2 {
+    margin-top: 20px;
+    color: white;
+    font-weight: bold;
+    height: 40px;
+}
+
+aside a {
+    margin-top: 20px;
+    color: white;
+    height: 40px;
+}
+
+
+/* #preview {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    height: 40px;
+}
+
+#preview_btn {
+    height: 40px;
+} */
